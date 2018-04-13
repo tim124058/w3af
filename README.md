@@ -22,3 +22,21 @@ document in our wiki. All contributions, no matter how small, are welcome.
 ## Sponsor the project
 
 Found this project useful? Donations are accepted via [ethereum](https://www.ethereum.org/) at `0xb1B56F04E6cc5F4ACcB19678959800824DA8DE82`
+
+## Kali install
+
+Install:
+
+```shell
+$ git clone https://github.com/tim124058/w3af.git
+$ cd w3af
+$ ./kali_install.sh
+```
+
+Run with gui:
+
+```shell
+$ w3af_gui
+```
+
+reference : [https://blog.csdn.net/weixin_37224075/article/details/78215791](https://blog.csdn.net/weixin_37224075/article/details/78215791)
