@@ -28,20 +28,20 @@ GUI = 2
 CORE_PIP_PACKAGES = [PIPDependency('pyclamd', 'pyClamd', '0.4.0'),
                      PIPDependency('github', 'PyGithub', '1.21.0'),
                      PIPDependency('git.util', 'GitPython', '2.1.3'),
-                     PIPDependency('pybloomfilter', 'pybloomfiltermmap', '0.3.14'),
+                     PIPDependency('pybloomfilter', 'pybloomfiltermmap', '0.3.15'),
                      PIPDependency('phply', 'phply', '0.9.1'),
                      PIPDependency('nltk', 'nltk', '3.0.1'),
                      PIPDependency('chardet', 'chardet', '3.0.4'),
                      PIPDependency('tblib', 'tblib', '0.2.0'),
                      PIPDependency('pdfminer', 'pdfminer', '20140328'),
                      PIPDependency('concurrent.futures', 'futures', '3.2.0'),
-                     PIPDependency('OpenSSL', 'pyOpenSSL', '17.4.0'),
+                     PIPDependency('OpenSSL', 'pyOpenSSL', '16.2.0'),
                      PIPDependency('ndg', 'ndg-httpsclient', '0.3.3'),
 
                      # We need 0.1.8 because of mitmproxy
                      PIPDependency('pyasn1', 'pyasn1', '0.4.2'),
 
-                     PIPDependency('lxml', 'lxml', '3.4.4'),
+                     PIPDependency('lxml', 'lxml', '3.7.1'),
                      PIPDependency('scapy.config', 'scapy-real', '2.2.0-dev'),
                      PIPDependency('guess_language', 'guess-language', '0.2'),
                      PIPDependency('cluster', 'cluster', '1.1.1b3'),
