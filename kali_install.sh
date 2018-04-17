@@ -16,7 +16,7 @@ dpkg -i /tmp/dep_webkit/* || apt-get --fix-broken install -y && rm -rf /tmp/dep_
 # install python dependence
 SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
-$SCRIPTPATH/w3af_gui
+$SCRIPTPATH/w3af_gui -h
 /tmp/w3af_dependency_install.sh
 
 # symbolic link
